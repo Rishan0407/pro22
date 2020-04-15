@@ -11,7 +11,7 @@ class Particle {
     display(){
       var pos =this.body.position;
       ellipseMode(CENTER);
-      fill("green");
+      fill("black");
     ellipse(pos.x, pos.y, this.r);
     }
   };
